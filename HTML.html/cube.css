@@ -1,0 +1,62 @@
+
+.cube {
+  perspective: 200px;
+  perspective-origin: 50% 50%;
+
+  width:100px;
+  height:100px;
+
+
+
+
+  margin:auto;
+  margin-top:200px;
+
+}
+.face{
+  width:100px;
+  height:100px;
+  background:rgba(255,0,0,0.3);
+  border:solid 1px #000;
+  position: absolute;
+  transform-origin: 50px 50px -50px;
+}
+
+.face1{
+  transform: rotateY(0);
+  transition: all 2s linear 0s;
+}
+
+.face2{
+  transform: rotateY(90deg);
+  transition: all 2s linear 0s;
+}
+
+.face3{
+  transform: rotateY(180deg);
+  transition: all 2s linear 0s;
+}
+
+
+.face4{
+  transform: rotateY(270deg);
+  transition: all 2s linear 0s;
+}
+
+.face5{
+  transform: rotateY(0deg) rotateX(90deg);
+  transition: all 2s linear 0s;
+}
+
+.face6{
+  transform: rotateY(0deg)  rotateX(-90deg);
+  transition: all 2s linear 0s;
+}
+
+
+.cube:hover .face1{transform: rotateY(360deg);transition: all 2s linear 0s;}
+.cube:hover .face2{transform: rotateY(450deg);transition: all 2s linear 0s;}
+.cube:hover .face3{transform: rotateY(540deg);transition: all 2s linear 0s;}
+.cube:hover .face4{transform: rotateY(630deg);transition: all 2s linear 0s;}
+.cube:hover .face5{transform: rotateY(360deg)rotateX(90deg);transition: all 2s linear 0s;}
+.cube:hover .face6{transform: rotateY(360deg) rotateX(-90deg);transition: all 2s linear 0s;}

@@ -1,0 +1,47 @@
+
+.cube{
+  perspective: 300px;
+  perspective-origin: 50% 50%;
+
+  width:100px;
+  height:100px;
+
+
+
+  margin:auto;
+
+}
+
+.face{
+  width:100px;
+  height:100px;
+  background:rgba(255,0,0,0.3);
+  border:solid 1px #000;
+  position: absolute;
+  transform-origin: 50px 50px -50px;
+}
+
+.face1{
+  transform: rotateY(0);
+}
+
+.face2{
+  transform: rotateY(90deg);
+}
+
+.face3{
+  transform: rotateY(180deg);
+}
+
+
+.face4{
+  transform: rotateY(270deg);
+}
+
+.face5{
+  transform: rotateY(-90deg);
+}
+
+.face6{
+  transform: rotateY(-180deg);
+}

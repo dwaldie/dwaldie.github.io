@@ -1,0 +1,92 @@
+main{
+	width:1024px;
+  margin: auto;
+	position: relative;
+
+}
+body{
+	font-family:Times ;
+	margin: 0;
+  font-family: 'Unica One', cursive;
+	min-height: 100vh;
+	background-color:#F0EBD8;
+	background-size: cover;
+	background-position: center center;
+	background attatchment: fixed;
+
+}
+
+
+header{
+	width: 1024px;
+	height: 100px;
+	margin-top: 500px;
+	font-family:verdana;
+	color:#000;
+	font-size: 50px;
+	text-shadow:0 0 0 0 ;
+	padding-top: 90px;
+	text-align: center;
+
+}
+
+nav{
+	width: 1024px;
+	height: 100px;
+	margin-top: 500px;
+	font-family:'Great Vibes', cursive;
+	color:#000000;
+	font-size: 50px;
+
+}
+
+aside{
+	width: 60px;
+	height: 200px;
+  position: absolute;
+	top: 150px;
+	left: 956px;
+	background-color:
+}
+footer{
+	width:984px;
+	height:30px;
+	margin-top:100px;
+	padding:20px;
+	text-align:center;
+}
+#long{
+	position: absolute;
+	top:800px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+		opacity: 0.3;
+
+}
+
+li {
+    float: top;
+}
+
+li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 50px 50px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+#w{
+	background-image: url(image/wheat1.jpg);
+	background-repeat: no-repeat;
+}
