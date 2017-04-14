@@ -118,26 +118,11 @@ li a:hover {
 
 .galerie{
 	margin:auto;
-	width:1500px;
-	margin-top:-200px;
+	width:100%;
 
 }
 
-.galerie img{
-margin-top: 200px;
-margin-bottom: -120px;
-transition: 400ms linear;
-}
 
-.galerie img:hover{
-box-shadow: -1px 8px 24px 5px rgba(235,228,233,0.45);
-}
-
-.img{
-margin-left:140px;
-margin-top:-35px;
-
-}
 
 
 
@@ -233,3 +218,6 @@ margin-left: -1000px;
 margin-top: -400px;
 
 }
+.one{width:35%;height:auto;}
+.two{width:40%;height:auto;}
+.three{width:45%;height:auto;}
