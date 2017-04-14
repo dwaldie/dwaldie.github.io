@@ -1,5 +1,4 @@
-/***********************************************************/
-/*      DESKTOP                                            */
+4
 @media screen and (min-width: 1200px) {
 	#desktop_1 {
 		background-color: #900;
@@ -11,13 +10,13 @@
 		background-color: #900;
 		color: #fff;
 	}
-}	
+}
 @media screen and (max-width: 800px) and (min-device-width: 1024px){
 	#desktop_3 {
 		background-color: #900;
 		color: #fff;
 	}
-}	
+}
 /***********************************************************/
 /*      IPAD                                               */
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
@@ -25,14 +24,14 @@
 		background-color: #900;
 		color: #fff;
 	}
-}	
+}
 
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
 	#ipad_2 {
 		background-color: #900;
 		color: #fff;
-	}	
-}	
+	}
+}
 
 /***********************************************************/
 /*      IPHONE                                             */
@@ -73,7 +72,7 @@
 	font-family: Georgia, serif;
 	font-size: 36px;
 	color: #000;
-	
+
   }
 }
 /***********************************************************/
