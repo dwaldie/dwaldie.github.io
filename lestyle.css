@@ -55,7 +55,7 @@ aside{
 footer{
 	width:80%;
 	height:30px;
-	margin-top:800px;
+	margin-top:1000px;
 	margin-left: auto;
 	margin-right: auto;
 	padding:20px;
@@ -66,12 +66,17 @@ footer{
 	position: absolute;
 	top:800px;
 }
+.img{
+margin-left:540px;
+margin-top:auto;
 
+
+}
 
 ul {
     list-style-type: none;
     margin: 0;
-		width: 50%;
+		width: 70%;
 		margin-left: auto;
 		margin-right: auto;
     padding: 0;
@@ -175,6 +180,14 @@ padding:20px;
 box-shadow: 0 2px 5px #ccc;
 
 }
+
+.texthaitia{
+	font-family: monospace;
+	margin-left: 230px;
+	margin-top: -1050px;
+	width: 460px;
+}
+
 
 .text2{
 	font-family: monospace;
