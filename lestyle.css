@@ -67,8 +67,9 @@ footer{
 	top:800px;
 }
 .img{
-margin-left:540px;
+margin-left:600px;
 margin-top:auto;
+width:100%
 
 
 }
@@ -122,7 +123,7 @@ li a:hover {
 
 
 .galerie{
-	margin:auto;
+	margin-top:100px;
 	width:100%;
 
 }
@@ -134,17 +135,11 @@ li a:hover {
 
 
 .contact1{
-	font-family: monospace;
-	width: 600px;
-	height:300px;
-	margin-top: 225px;
-	margin-left: 250px;
-	overflow: hidden;
-	background-color:rgba(255,255,255,0.3);
-	background-image:
-	color:#848C8E;
-	padding:20px;
-	box-sizing:200px
+
+	margin-left:650px;
+	margin-top:auto;
+
+
 }
 
 
@@ -182,10 +177,16 @@ box-shadow: 0 2px 5px #ccc;
 }
 
 .texthaitia{
+	width: 700px;
+	height: 120px;
+	margin:auto;
+	margin-left: 600px;
+	margin-top: 50px;
 	font-family: monospace;
-	margin-left: 230px;
-	margin-top: -1050px;
-	width: 460px;
+  background-color:rgba(255,255,255,0.4);
+	padding-top: 30px;
+	padding-bottom: 30px;
+
 }
 
 
@@ -227,10 +228,13 @@ margin-left:800px;
 
 
 aside{
-margin-left: -1000px;
-margin-top: -400px;
+margin-left: 800px;
+margin-top:400px;
 
 }
-.one{width:35%;height:auto;}
-.two{width:40%;height:auto;}
-.three{width:45%;height:auto;}
+.one{width:500px;height:auto;}
+.two{width:500px;height:auto;}
+.three{width:500px;height:auto;}
+.four{width:500px;height:auto;}
+.five{width:500px;height:auto;}
+.six{width:500px;height:auto;}
