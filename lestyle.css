@@ -306,3 +306,17 @@ margin-left:800px;
 					height: auto;
 				}
 			}
+
+
+			#printHome{display:none;}
+			#print1{display:none;}
+			#print2{display:none;}
+			#print3{display:none;}
+			#print4{display:none;}
+			@media only print {
+				#printHome{display:block;}
+				#print1{display:block;}
+				#print2{display:block;}
+				#print3{display:block;}
+				#print4{display:block;}
+			}
