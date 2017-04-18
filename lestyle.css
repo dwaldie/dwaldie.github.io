@@ -1,5 +1,5 @@
 main{
-	width:100%;
+width:100%;
 margin-left: auto;
 margin-right: auto;
 height: auto;
@@ -30,32 +30,17 @@ header{
 
 }
 
-nav{
-	width: 100%;
-	height: 100px;
-	margin-top: 500px;
-	font-family:'Great Vibes', cursive;
-	color:#000000;
-	font-size: 50px;
-
-}
-
-aside{
-	width: 60px;
-	height: 200px;
-  position: absolute;
-	top: 150px;
-	right: 0px;
-	background-color:
-}
 footer{
-	width:80%;
+	width:25%;
 	height:30px;
-	margin-bottom:0px;
+	margin-bottom:-;
 	margin-left: auto;
 	margin-right: auto;
 	text-align:center;
-
+	font-family:sans-serif;
+	font-size:17px;
+	background-color:rgba(255,255,255,0.2);
+	display: block;
 }
 #long{
 	position: absolute;
@@ -72,6 +57,7 @@ width:35%
 	height: auto;
 }
 ul {
+	font-family:sans-serif;
     list-style-type: none;
     margin: 0;
 		width: 70%;
@@ -133,24 +119,45 @@ li a:hover {
 	height: 100%;
 	width: 100%;
 	position: fixed;
-	top: 0px;
+	bottom: 0px;
 	overflow: hidden;
 }
 #haitiaID img{
-	height: 100%;
-	width: auto;
+	height: auto;
+	width: 100%;
 }
-
-
-
-.contact1{
-
-	margin-left:650px;
-	margin-top:auto;
-
-
+.texthaitia{
+	width: 33%;
+	height:auto;
+	margin:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:40px;
+	margin-top: 50px;
+	font-family: monospace;
+  background-color:rgba(255,255,255,0.3);
+	padding: 15px;
+	font-size:17px;
 }
-
+#menu{margin-top:5%;margin-bottom:50px;}
+footer a{
+	text-decoration: none;
+}
+footer a:visited{
+	color: #000;
+}
+#music{
+	font-family:sans-serif;
+	font-size:17px;
+	width: 100%;
+	position: fixed;
+	bottom:50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#menu{
+	margin-bottom:10%;
+}
 
 #pnom{
 
@@ -185,19 +192,6 @@ box-shadow: 0 2px 5px #ccc;
 
 }
 
-.texthaitia{
-	width: 33%;
-	height:auto;
-	margin:auto;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top: 50px;
-	font-family: monospace;
-  background-color:rgba(255,255,255,0.3);
-	padding: 15px;
-
-
-}
 
 
 .text2{
@@ -236,17 +230,6 @@ margin-left:800px;
 
 }
 
-
-aside{
-margin-left: 800px;
-margin-top:400px;
-
-}
-
-
-
-
-
 	@media screen and (max-width: 375px){
 			header{
 			 width:100%;
@@ -257,13 +240,42 @@ margin-top:400px;
 			 padding-top: 90px;
 			 text-align: center;
 			 }
-
 			 body{
 				font-family:Times ;
 				margin: 0;
-				background-size: cover;
-				background-position: center center;
-				background attatchment: fixed;
 			 }
-
+			 .texthaitia{
+			 	width: 66%;
+				margin-top:25px;
+				padding:5px;
+ 			 }
+			 .galerie{
+			 	margin-top:25px;
+			 	width:80%;
+			 	margin-left: auto;
+			 	margin-right: auto;
+			 }
+			 #p1:active{width:70%;position:absolute;left:15%;top:100px;}
+			 #p2:active{width:70%;position:absolute;left:15%;top:100px;}
+			 #p3:active{width:70%;position:absolute;left:15%;top:100px;}
+			 #p4:active{width:70%;position:absolute;left:15%;top:100px;}
+			 #p5:active{width:70%;position:absolute;left:15%;top:100px;}
+			 #p6:active{width:70%;position:absolute;left:15%;top:100px;}
+			 	#p1 img:active{width:100%;}
+			 	#p2 img:active{width:100%;}
+			 	#p3 img:active{width:100%;}
+			 	#p4 img:active{width:100%;}
+			 	#p5 img:active{width:100%;}
+			 	#p6 img:active{width:100%;}
+				#menu{margin-top:25px;}
+				iframe{width:90% !important;left:5% !important;top:150px !important;}
+				#music{
+					font-family:sans-serif;
+					font-size:17px;
+					width: 100%;
+					position: fixed;
+					bottom:50px;
+					margin-left: auto;
+					margin-right: auto;
+				}
 			}
