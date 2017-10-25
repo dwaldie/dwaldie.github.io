@@ -12,7 +12,16 @@ function setup() {
   s = 50;
   g = 0.4;
 }
+function setup() {
+ createCanvas(windowWidth,windowHeight); 
+}
 
+function draw()
+{}
+
+function touchStarted() {
+ background(random(0,255),random(0,255),random(0,255));
+}
 
 function draw() {
   background(255);
