@@ -35,26 +35,26 @@ function drawBille() {
   py += vy;
   fill(value);
   ellipse(px, py, s, s);
-  fill(150,150,150);
-  ellipse(px, py-10, s/2, s/4);
-  fill(75,75,75);
-  ellipse(px, py+10, s/2, s/4);
-  if (px > windowWidth) {
+  fill(150, 150, 150);
+  ellipse(px, py - 10, s / 2, s / 4);
+  fill(75, 75, 75);
+  ellipse(px, py + 10, s / 2, s / 4);
+  if (px > windowWidth - s / 2) {
     px = windowWidth - s / 2;
-    vx = -vx*g;
+    vx = -vx * g;
   }
-  if (px < 0) {
+  if (px < 0 + s / 2) {
     px = 0 + s / 2;
-    vx = -vx*g;
+    vx = -vx * g;
   }
 
-  if (py > windowHeight) {
+  if (py > windowHeight - s / 2) {
     py = windowHeight - s / 2;
-    vy = -vy*g;
+    vy = -vy * g;
   }
-  if (py < 0) {
+  if (py < 0 + s / 2) {
     py = 0 + s / 2;
-    vy = -vy*g;
+    vy = -vy * g;
   }
 }
 
