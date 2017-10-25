@@ -17,10 +17,10 @@ function setup() {
 function draw() {
   background(255);
   fill(0);
-  textSize(40);
-  text("Rx: " + floor(rotationX), 100, 100);
-  text("Ry: " + floor(rotationY), 100, 150);
-  text("Rz: " + floor(rotationZ), 100, 200);
+  textSize(18);
+  text("Rx: " + floor(rotationX), 5, 15);
+  text("Ry: " + floor(rotationY), 5, 35);
+  text("Rz: " + floor(rotationZ), 5, 55);
   drawBille();
 }
 
