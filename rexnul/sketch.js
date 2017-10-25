@@ -1,5 +1,7 @@
 var ax, ay, vx, vy, px, py, s, g, vMultiplier;
-var value = 0;
+var r = 50;
+var g = 125;
+var b = 200;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -12,19 +14,10 @@ function setup() {
   s = 50;
   g = 0.4;
 }
-function setup() {
- createCanvas(windowWidth,windowHeight); 
-}
 
-function draw()
-{}
-
-function touchStarted() {
- background(random(0,255),random(0,255),random(0,255));
-}
 
 function draw() {
-  background(255);
+  background(r,g,b);
   fill(0);
   textSize(18);
   text("Rx: " + floor(rotationX), 5, 15);
@@ -42,11 +35,11 @@ function drawBille() {
   ay = rotationX * vMultiplier;
   vy += ay;
   py += vy;
-  fill(value);
+  fill(0);
   ellipse(px, py, s, s);
-  fill(150, 150, 150);
+  fill(150);
   ellipse(px, py - 10, s / 2, s / 4);
-  fill(75, 75, 75);
+  fill(75);
   ellipse(px, py + 10, s / 2, s / 4);
   if (px > windowWidth - s / 2) {
     px = windowWidth - s / 2;
@@ -68,9 +61,17 @@ function drawBille() {
 }
 
 function deviceShaken() {
-  value = value + 5;
-  if (value > 255) {
-    value = 0;
+ r = r + 5;
+  if (r > 255) {
+    r = 50;
+  }
+ g = g + 5;
+  if (g > 255) {
+    g = 50;
+  }
+ b = b + 5;
+  if (b > 255) {
+    b = 50;
   }
 
 }
